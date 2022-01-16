@@ -1,0 +1,45 @@
+*{
+  box-sizing: border-box;
+}
+body{
+   font-family: 'Open Sans', sans-serif;
+   line-height: 1.5;
+  font-size: 0.875rem;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 15% auto;
+}
+
+.heading{
+  margin: 1rem 1rem;
+  font-size: 2rem;
+}
+#score{
+  margin: 1rem 1rem;
+  padding : 1rem 1rem;
+  font-size: 4rem;
+}
+.btn-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn{
+  margin: 1rem 1rem;
+  padding: 0.8rem 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  border-radius: 1rem;
+  background: transparent;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+  cursor: pointer;
+}
+.btn:hover{
+  color: aliceblue;
+  background-color: rgb(180, 180, 168);
+
+}
